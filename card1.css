@@ -1,0 +1,754 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url("heart.jpg");
+ background-repeat:no-repeat;
+background-size:cover;
+height:1000px;
+width:100%;
+}
+html{
+	 scroll-behavior:smooth;
+}
+ 
+#myTopnav h1
+{
+	float:left;
+	margin:0;
+	display:inline;
+	color:white;
+	text-indent:5px;
+	 
+	 }
+.ro{
+ margin:0;
+    float:left; 
+    display: inline;
+    margin-top:50px ;
+    clip-path: circle();
+animation-name:rotate;
+animation-duration:5s;
+height:250px;
+width:250px;
+background-color:white;
+background-repeat:no-repeat;
+background-image:url("durgapic1.jpg");
+
+}
+
+
+@keyframes rotate{
+from{
+background-image:url("durgapic1.jpg")
+}
+to{background-image:url("img.jpeg")}
+}
+ 
+
+.topnav {
+	position:fixed;
+  overflow: hidden;
+ background-color:rgb(0,102,102);
+ width:1350px;
+ 
+ 
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+   background-color:rgb(0,102,102);
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+#fire{
+	
+	float:left;
+	margin:0;
+	text-align:center;
+	display:inline;
+	font-size:35px;
+	color:black;
+	font-family:impact;
+}
+span{
+	margin-top:100px;
+	margin-left:10px;
+	display:block;
+	background:url("fire.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:right;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-webkit-animation:fire .4s linear infinite;
+}
+#smoke{
+	
+	float:left;
+	margin:0;
+	display:inline;
+	font-size:20px;
+	color:black;
+text-align:center;
+	margin-left:10px;
+	font-family:sans-serif;
+	background:url("smoke.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:right;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-webkit-animation:fire .4s linear infinite;
+	
+}
+#box10{
+	margin-top:30px;
+	background:url("water.gif");
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:1400px;
+	
+}
+	
+
+#heart{
+	
+	float:left;
+	margin:0;
+	display:inline;
+	font-size:20px;
+	color:black;
+	text-align:center;
+	margin-left:10px;
+	font-family:sans-serif;
+	background:url("water1.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:right;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-webkit-animation:fire .4s linear infinite;
+	
+}
+
+#about{
+	height:1000px;
+    width:800px;
+	margin-left:290px;
+	background-color:white;
+	}
+.like{
+	height:100px;
+	width:100px;
+	background-color:#e4ebeb;
+	float:left;
+	margin:0;
+	display:inline;
+	margin-left:10px;
+}
+ol{
+	margin:0%;
+	font-size:10px;
+	padding:10px;
+}
+h6{
+	color:green;
+	font-weight:normal;
+	font-size:15px;
+	margin:10%;
+}
+
+h1{
+    color:blue;
+}
+.responsive{
+    border:2px solid black;
+  margin: 0%;
+   display:inline;
+   float: left;
+   width:300px;
+ 
+}
+p{
+
+    float: right;
+    line-height:20px ;
+    width:460px;
+    color:darkblue;
+    font-family:unset;
+}
+#box1{
+    margin: 0%;
+   display:inline;
+   float: left;
+   background-color:  darkgray;
+   height:125px ;
+  width:460px ;
+  color: darkred;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+    #box2{
+        margin: 0%;
+   display:inline;
+   float: right;
+   color: lawngreen;
+    }
+    #box3{
+        margin: 0%;
+   display:inline;
+   float: left;
+   background-color: #e4ebeb;
+   font-size: 30px;
+   font-family:initial;
+   height:125px;
+  width:460px ;
+  color:yellowgreen
+
+    }
+    #box4{
+        margin: 0%;
+   display:inline;
+   float: left;
+   background-color:#e4ebeb;
+   height:670px;
+   margin-left:15px;
+    }
+    h5{
+        background-color: rgb(22, 238, 76);
+        border:2px solid green;
+    }
+    #btn{
+        background-color:rgb(22, 238, 76);
+        height:30px;
+        border:2px solid green;
+		padding:20px;
+        
+    }
+    button a{
+        color:black;
+        font-size: 20px;
+       
+    }
+	
+ ul{
+       text-decoration:none ;
+       background-color: #fd6565;
+       list-style-type:none;
+   }
+   li{
+       float:left;
+   }
+  .column{ 
+height:410px;
+    width:500px;
+	}
+ .circle{
+	
+	 margin:0;
+	 display:inline;
+	 float:left;
+	 border-radius:50%;
+ }
+ .cir{
+		margin-left:10px;
+		clip-path:circle;
+	 display:inline;
+	 float:left;
+	 border-radius:50%;
+	}
+ 
+ h2{
+    text-align: center;
+    color:#2b0ee7;
+}
+
+h3{
+    text-align: center;
+    color:red;
+}
+
+
+#ncc{
+    clip-path: none;
+    border:2px solid blue;
+    
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+.row{
+	height:1800px;
+	background-color:none;
+}
+#column{
+    margin-top:2px ;
+}
+.column{
+    margin:10px ;
+  float: left;
+  padding: 10px;
+  display: inline;
+    margin-left:60px ;
+   height:820px;
+    width:500px;
+    background-color: cornsilk;
+    
+}
+.column:hover{
+		height:830px;
+		background-image:url("pic3.jpg");
+		background-size:cover;
+		color:white;
+	}
+#mar1{
+clip-path:none;
+border:2px solid blue;
+margin:25px;
+width:450px;
+height:40%;
+float:left;
+}
+.mar{
+	clip-path:none;
+border:2px solid blue;
+margin:15px;
+width:180px;
+height:150px;
+float:left;
+}
+
+.contact{
+	
+	
+	height:870px;
+}
+.contact:hover{
+	
+	
+	background:url("smoke.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+#c1
+{
+height:200px;
+width:500px;
+background-color:#82807E;
+margin-left:200px;
+display:inline;
+float:left;
+}
+#c3
+{
+
+height:150px;
+width:150px;
+background-color:#82807E;
+display:inline;
+float:left;
+margin:10px;
+display:inline;
+float:left;
+margin-left:250px;
+}
+#c4
+{
+float:right;
+height:150px;
+width:150px;
+background-color:#82807E;
+display:inline;
+margin:10px;
+display:inline;
+float:right;
+margin-right:150px;
+}
+#c1 a{
+padding:10px;
+clip-path:circle();
+}
+#f1{
+border:4px solid white;
+color:blue;
+clip-path:circle;
+padding:10px;
+size:10px;
+background-color:white;
+
+}
+#p1{
+border:4px solid white;
+color:green;
+clip-path:circle;
+padding:10px;
+size:10px;
+background-color:white;
+border-radius:10px;
+
+}
+#e1{
+border:4px solid white;
+color:red;
+background-color:white;
+padding:10px;
+size:10px;
+clip-path:circle;
+border-radius:10px;
+}
+#w1{
+border:4px solid white;
+color:green;
+clip-path:circle;
+padding:10px;
+size:10px;
+background-color:white;
+
+}
+#i1{
+border:4px solid white;
+color:pink;
+clip-path:circle;
+padding:10px;
+size:10px;
+background-color:white;
+
+}
+#t1{
+border:4px solid white;
+color:skyblue;
+clip-path:circle;
+padding:10px;
+size:10px;
+background-color:white;
+}
+#c2
+{
+height:480px;
+width:550px;
+background-color:blue;
+margin:20px;
+display:inline;
+float:right;
+
+}
+h2{
+color:red;
+}
+form{
+padding:30px;
+margin:20px;
+margin-left:30px;
+text-align:center;
+}
+#sub{
+border:2px solid black;
+height:40px;
+width:490px;
+}
+#msg{
+border:2px solid black;
+height:100px;
+width:490px;
+}
+button{
+padding:10px;
+color:black;
+background-color:green;
+border-radius:20px;
+}
+.nemail{
+border:2px solid black;
+height:40px;
+width:200px;
+}
+.gal{
+	height:700px;
+	width:1800px;
+	
+	
+}
+.gal:hover{
+	height:700px;
+	width:1800px;
+	background:url("emoji.jpg");
+	background-position:cover;
+	
+}
+.galpic{
+	background-color:#82807E;
+	height:600px;
+	width:600px;
+	float:left;
+	padding:30px;
+	margin:50px;
+	
+	text-align:center;
+	animation-name:ro;
+animation-duration:5s;
+	
+}
+@keyframes ro{
+from{
+	
+transform:perspective(100px)rotateX(0deg)
+}
+to{
+transform:perspective(100px)rotateZ(360deg)}
+}
+
+.galpic:hover{
+   
+   background-color:black;
+   
+   }
+#pic1
+{
+
+margin:10px;
+border: 2px solid blue;
+}
+#pic2
+{
+
+margin:10px;
+border: 2px solid blue;
+}
+#pic3
+{
+
+margin:10px;
+border: 2px solid blue;
+}
+#pic4
+{
+
+margin:10px;
+border: 2px solid blue;
+}
+#pic5
+{
+
+margin:10px;
+border: 2px solid blue;
+}
+
+@media screen and (max-width:400px)
+{
+    body{
+        width:100%;
+		height:1200px;
+	    margin:0;
+		float:none;
+		text-align:center;
+    }
+	.topnav{
+		width:40%;
+		 margin:0;
+		float:left;
+	}
+	
+	.topnav a{
+		height:100%;
+		width:100%;
+		float:left;
+		
+	}
+	.cir{
+		margin-left:10px;
+		clip-path:circle;
+	 display:inline;
+	 float:left;
+	 border-radius:50%;
+	}
+	#fire{
+		text-align:center;
+		
+	}
+	#smoke{
+		text-indent:10px;
+		text-align:center;
+		
+	}
+	#heart{
+		text-align:center;
+	}
+	#about{
+	height:2000px;
+	 margin:30px 30px ;
+   
+   
+	float:none;
+    width:303px;
+	}
+	 h1{
+		margin-left:100px;
+		text-align:left;
+	}
+	
+	#box4{
+		margin-left:0;
+	
+  display:inline;
+  text-align:center;
+  height:750px;
+   
+  }
+	 #box3{
+		 margin:0;
+		 
+       width:302px;
+		text-align:center;
+       
+    }
+    #box1{
+		margin:0;
+		 
+       width:302px;
+		text-align:center;
+        
+    }
+	p{
+		
+	float:left;
+		padding:30px;
+        width:250px;
+		text-align:center;
+		
+	}
+	#h1{
+		margin:0;
+		margin-right:150px;
+		float:left;
+		display:none;
+		text-indent:none;
+
+	}
+	.like{
+	
+		float:left;
+		display:none;
+		text-align:center;
+	
+	}
+	.row{
+		height:3700px;
+		background-color:white;
+	}
+	.column{
+		float:left;
+		width:80%;
+		text-align:center;
+		margin:30px;
+		height:830px;
+		
+		
+	}
+	
+	.column:hover{
+		height:900px;
+		background-image:url("pic3.jpg");
+		background-size:cover;
+		color:white;
+	}
+	
+	#mar1{
+		height:100px;
+      width:70%;
+		float:none;
+		}
+		
+		
+		.column p{
+			margin:0;
+			float:left;
+			text-align:center;
+			
+		}
+		 #c2{
+   margin:30px 30px;
+  float:left;
+  width:80%;
+  height:600px;
+  border:1px solid black;
+
+  }
+  #c3{
+   margin:30px 30px;
+  float:left;
+  width:80%;
+ }
+  #c4{
+   margin:30px 30px;
+  float:left;
+  width:80%;
+
+ }
+  #c1{
+   margin:30px 30px;
+float:left;
+width:80%;
+
+}
+
+.contact{
+	height:1700px;
+}
+.contact h1{
+	margin:0;
+	text-indent:80px;
+}
+  .contact iframe{
+   margin:30px 30px;
+  float:left;
+  width:80%;
+ }
+ #sub{
+ width:85%;
+  }
+  .nemail{
+  width:85%;
+  }
+  #msg{
+  width:85%;
+  }
+  button{
+  width:100%;
+  }
+  .gal h1{
+	margin:0;
+	text-indent:80px;
+}
+  .gal{
+	  height:1400px;
+	  width:100%;
+	  float:none;
+  }
+   .galpic{
+	   margin:30px;
+	  height:100%;
+	  width:80%;
+	}
+	.gal:hover{
+		 margin:30px;
+	  height:100%;
+	  width:100%;
+		
+	}
+}
